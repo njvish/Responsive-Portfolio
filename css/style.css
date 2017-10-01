@@ -273,11 +273,10 @@ input[type=submit] {
 
   .container {
     width: 100%;
-    margin: 0 auto;
   }
 
   #masthead {
-    position: fixed;
+    position: static;
     z-index: 99;
     width: 100%;
     overflow: auto;
@@ -287,20 +286,16 @@ input[type=submit] {
   }
 
   .main-section {
-    float: left;
-    width: 100%;
-    max-width: 100%;
+    max-width: 90%;
     padding: 30px;
-    margin: 0px 0px 30px 38px;
+    margin: 0px 38px 30px 38px;
     background: #fff;
     border: 1px solid #ddd;
   }
 
     .sidebar {
-    width: 100%;
-    max-width: 100%;
+    max-width: 90%;
     padding: 30px;
-    margin bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
   }
