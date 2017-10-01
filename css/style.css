@@ -271,8 +271,17 @@ input[type=submit] {
 
 @media(max-width: 640px) {
 
+
   .container {
     width: 100%;
+  }
+
+  .page {
+    margin-right: 125px;
+  }
+
+  #main-container {
+    padding-top: 30px;
   }
 
   #masthead {
@@ -286,7 +295,7 @@ input[type=submit] {
   }
 
   .main-section {
-    max-width: 90%;
+    max-width: 85%;
     padding: 30px;
     margin: 0px 38px 30px 38px;
     background: #fff;
@@ -294,7 +303,7 @@ input[type=submit] {
   }
 
     .sidebar {
-    max-width: 90%;
+    max-width: 85%;
     padding: 30px;
     background: #fff;
     border: 1px solid #ddd;
@@ -313,9 +322,6 @@ input[type=submit] {
     background: #4aaaa5;
   }
 
-   .page {
-    text-align: center;
-   }
     
 }
  
